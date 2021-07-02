@@ -1,0 +1,46 @@
+.menuContainer {
+  width: 120px;
+  height: 160px;
+  background-color: rgba(255,255,255, 0.50);
+  border-radius: 10px;
+
+  .title {
+    padding-left: 16px;
+    padding-top: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  .menuItemContainer {
+    list-style: none;
+    width: 90%;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+
+    span,
+    i {
+      font-size: 12px;
+    }
+
+    .menuItem {
+      padding: 6px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+
+    .menuItemSelected {
+      padding: 8px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      background-color: #1a73e8;
+      color: #fff;
+    }
+  }
+}

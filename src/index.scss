@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+$light: #656266;
+$dark: #161a23;
+$base: #ffffff;
+$primary-text: #c6cbcf;
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #212121;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2
+{
+  color: #42BBDF;
+  text-align: center;
+  background-color: #212121;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

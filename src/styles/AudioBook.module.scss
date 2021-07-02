@@ -1,0 +1,40 @@
+.container {
+  @extend .flex;
+  width: 220px;
+  height: 160px;
+  background-color: purple;
+  color: #fff;
+  font-family: "Roboto";
+
+  .description {
+    @extend .flex;
+    width: 100%;
+
+    h3 {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 1.6em;
+    }
+    p {
+      font-size: 10px;
+    }
+    .thumbnailImage {
+      margin-top: 10px;
+      width: 80px;
+      height: 80px;
+      background: url("https://images-na.ssl-images-amazon.com/images/I/51+J9qflIiL._SX324_BO1,204,203,200_.jpg");
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  .progress {
+    border-top: cyan 5px solid;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
