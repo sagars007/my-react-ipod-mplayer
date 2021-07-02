@@ -1,4 +1,4 @@
-![screenshot](ss/normal_thintt.jpg)
+![screenshot](screenshots/ipod_react_app_screenshot.png)
 
 # Getting Started with Create React App
 
